@@ -1,0 +1,24 @@
+.heading {
+  color: var(--violet);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+.box {
+  width: 358px;
+  height: 60px;
+  background: linear-gradient(white, white) padding-box,
+    var(--gradient) border-box;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.code {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1.5em;
+  color: var(--violet);
+}

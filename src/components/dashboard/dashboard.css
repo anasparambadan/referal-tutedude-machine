@@ -1,0 +1,69 @@
+.card {
+  width: 486px;
+  height: 188px;
+  background: #ffffff;
+  box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 63px;
+}
+.frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 105px;
+  height: 69px;
+}
+.frame .title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--violet);
+  width: 111px;
+  height: 21px;
+}
+.frame .content {
+  width: 116px;
+  height: 48px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: var(--black);
+}
+
+.btn {
+  width: 180px;
+  height: 40px;
+  padding: 8px 16px;
+  background: var(--violet);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn .text {
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  width: 148px;
+  height: 24px;
+}
+@media only screen and (max-width: 600px) {
+  .card {
+  flex-wrap: wrap;
+    width: 390px;
+    height: 198px;
+    justify-content: space-between;
+
+  }
+  .btn {
+    width: 180px;
+    height: 40px;
+  }
+}

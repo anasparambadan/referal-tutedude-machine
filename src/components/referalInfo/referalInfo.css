@@ -1,0 +1,28 @@
+.datas {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 37px;
+  margin-top: 30px;
+}
+/* .referal-info {
+  width: 800px;
+  height: 332px;
+} */
+.bottom-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--violet);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  margin-top:   60px;
+}
+
+@media only screen and (max-width: 600px){
+  .datas{
+    flex-direction: column;
+  }
+}
